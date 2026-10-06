@@ -442,7 +442,9 @@ body.railmini .hq nav button .navphase{display:none}
 .rh2 .t small.wline b{color:var(--ink);font-weight:600}
 
 /* sign-in, access and connection notices (resources.mismo.org) */
-#rs-account{display:flex;align-items:center}
+/* account button: squared corners, same as Team HQ */
+#rs-account{flex:0 0 auto;display:inline-flex;align-items:center}
+#rs-account .rs-who,#rs-account .rs-signin{border-radius:4px}
 .relay-banner{margin:0 0 14px;padding:10px 14px;border-radius:6px;border:1px solid var(--border-strong);background:var(--info-soft);color:var(--ink);font-size:13.5px}
 .relay-banner.bad{background:var(--bad-soft);border-color:var(--bad);color:var(--ink)}
 .access-note{display:flex;align-items:center;gap:8px;margin:0 0 14px;padding:8px 12px;border-radius:6px;background:var(--surface-2);border:1px solid var(--rule);color:var(--ink-2);font-size:13px}
